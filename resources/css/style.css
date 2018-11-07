@@ -1,0 +1,44 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.coming_soon {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .container {
+    padding-top: 3rem;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  .coming_soon {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+  .container {
+    padding-top: 2rem;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .coming_soon {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+} 
